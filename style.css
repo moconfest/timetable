@@ -58,5 +58,7 @@ table {
   margin-right: auto; /* Выравниваем таблицу по центру окна  */
 }
 .head {
-  text-align: center; /* Выравниваем шапку по центру окна  */
+  /* text-align: center;*/  /* Выравниваем шапку по центру окна  */
+   justify-content: center;
+   display: flex;
 }
