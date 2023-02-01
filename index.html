@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>M.O.Con</title>
+    <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Верхняя панель -->
+    <div class="tab"> <button class="tablinks" onclick="openCity(event, 'One')">Мульт</button> 
+    <button class="tablinks" onclick="openCity(event, 'Two')">Одиночное</button>
+    <button class="tablinks" onclick="openCity(event, 'Three')">Парное</button>
+    <button class="tablinks" onclick="openCity(event, 'Four')">Групповое</button>
+    <button class="tablinks" onclick="openCity(event, 'Five')">2 БЛОК. Мульт</button>
+    <button class="tablinks" onclick="openCity(event, 'Six')">Одиночное</button>
+    <button class="tablinks" onclick="openCity(event, 'Seven')">Парное</button>
+    <button class="tablinks" onclick="openCity(event, 'Eight')">Групповое</button>
+    <button class="tablinks" onclick="openCity(event, 'Nine')">3 БЛОК. Мульт</button>
+    <button class="tablinks" onclick="openCity(event, 'Ten')">Одиночное</button>
+    <button class="tablinks" onclick="openCity(event, 'Eleven')">Парное</button>
+    <button class="tablinks" onclick="openCity(event, 'Tvelve')">Групповое</button>
+    <button class="tablinks" onclick="openCity(event, 'table')">Общая таблица</button>
+    </div>
+<!-- <button class="accordion">Хикару</button> <div class="panel"> <div class="card"> <a href="card/Hikaru.jpg" class="lightzoom"><img src="sCard/Hikaru.jpg" /></a> </div> </div> --> 
+<!-- Вкладка 1 -->
+<div id="One" class="tabcontent"><h3>Первый блок. Одиночное. Мировая мультипликация</h3>
+<button class="accordion">1.01 Laito - Благословение Небожителей - Hua Cheng</button> <div class="panel">  <a href="card/laito.jpg" class="lightzoom"><img src="sCard/laito.jpg" /></a> </div> 
+<button class="accordion">1.02 Days - Hazbin Hotel - Charlie</button> <div class="panel">  <a href="card/days.jpg" class="lightzoom"><img src="sCard/days.jpg" /></a> </div> 
+<button class="accordion">1.03 Toro - Kamisama hajimemashita - Mizuki</button> <div class="panel">  <a href="card/toro.jpg" class="lightzoom"><img src="sCard/toro.jpg" /></a> </div> 
+<button class="accordion">1.04 Kello - Моя Геройская Академия - Тодороки Шото</button> <div class="panel">  <a href="card/kello.jpg" class="lightzoom"><img src="sCard/kello.jpg" /></a> </div> 
+<button class="accordion">1.05 Кот Бегемот - Благословение Небожителей - Shi Qingxuan</button> <div class="panel">  <a href="card/kot.jpg" class="lightzoom"><img src="sCard/kot.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 2 -->
+<div id="Two" class="tabcontent"><h3>Первый блок. Одиночное. Игры, фильмы, сериалы</h3>
+<button class="accordion">1.08 Gemu - The Witcher 3: Wild Hunt - Присцилла</button> <div class="panel"> <a href="card/gemu.jpg" class="lightzoom"><img src="sCard/gemu.jpg" /></a> </div>
+<button class="accordion">1.09 Крейсер Уфа - Steampunk - Капитан Стефан Ковальский</button> <div class="panel"> <a href="card/ufa.jpg" class="lightzoom"><img src="sCard/ufa.jpg" /></a> </div>
+<button class="accordion">1.10 kuroko_ko_ko - The Legend of Zelda - Zelda</button> <div class="panel">  <a href="card/kuroko.jpg" class="lightzoom"><img src="sCard/kuroko.jpg" /></a> </div> 
+<button class="accordion">1.11 Camika - Марвел - Первый Мститель:другая война - Черная вдова Наташа Романофф</button> <div class="panel"> <a href="card/camika.jpg" class="lightzoom"><img src="sCard/camika.jpg" /></a> </div>
+</div>
+<!-- Вкладка 3 -->
+<div id="Three" class="tabcontent"><h3>Первый блок. Парное</h3>
+<button class="accordion">1.14 Chidori & Yodzo - Tokyo Revengers - Manjiro Sano & Takemichi Hanagaki</button> <div class="panel">  <a href="card/cy.jpg" class="lightzoom"><img src="sCard/cy.jpg" /></a> </div> 
+<button class="accordion">1.15 StarFans Tatarstan - STAR WARS - Mandalorian warriors</button> <div class="panel">  <a href="card/star.jpg" class="lightzoom"><img src="sCard/star.jpg" /></a> </div>
+<button class="accordion">1.16 Евакосп - Евангелион - Аска Ленгли, Аянами Рей</button> <div class="panel">  <a href="card/eva.jpg" class="lightzoom"><img src="sCard/eva.jpg" /></a> </div>
+</div>
+<!-- Вкладка 4 -->
+<div id="Four" class="tabcontent"><h3>Первый блок. Групповое</h3>
+<button class="accordion">1.18 89 крутка - Genshin Impact - Xinyan, Gorou, Kazuha, Lumine, Paimon, Albedo, Xiao, Venti</button> <div class="panel">  <a href="card/89.jpg" class="lightzoom"><img src="sCard/89.jpg" /></a> </div> 
+<button class="accordion">1.19 Chinese fuss - Genshin Impact - Сян Лин, Син Цю (Школьное АУ)</button> <div class="panel">  <a href="card/chinese.jpg" class="lightzoom"><img src="sCard/chinese.jpg" /></a> </div> 
+<button class="accordion">1.20 Altana и SNR - Bleach - Kuchiki Byakuya; Senbonzakura</button> <div class="panel">  <a href="card/as.jpg" class="lightzoom"><img src="sCard/as.jpg" /></a> </div>
+</div>
+<!-- Вкладка 5 -->
+<div id="Five" class="tabcontent"><h3>Второй блок. Одиночное. Мировая мультипликация</h3>
+<button class="accordion">2.01 Lally - Demon Slayer  - Shinobu Kocho</button> <div class="panel">  <a href="card/lally.jpg" class="lightzoom"><img src="sCard/lally.jpg" /></a> </div> 
+<button class="accordion">2.02 ShigeShinske - Магистр дьявольского культа - Jīn Guāngyáo</button> <div class="panel">  <a href="card/shige.jpg" class="lightzoom"><img src="sCard/shige.jpg" /></a> </div> 
+<button class="accordion">2.03 kicking iroces - demon Slayer - Kyōjurō Rengoku</button> <div class="panel">  <a href="card/kicking.jpg" class="lightzoom"><img src="sCard/kicking.jpg" /></a> </div> 
+<button class="accordion">2.04 MIKKEL - Promare - Lio Fotia</button> <div class="panel">  <a href="card/mikkel.jpg" class="lightzoom"><img src="sCard/mikkel.jpg" /></a> </div> 
+<button class="accordion">2.05 Chidori - Demon Slayer - Shinobu Kochō</button> <div class="panel">  <a href="card/chidori.jpg" class="lightzoom"><img src="sCard/chidori.jpg" /></a> </div>
+<button class="accordion">2.06 Afrai - Бесконечный Дендрограмм - Сю Старлинг Мишка братишка</button> <div class="panel">  <a href="card/afrai.jpg" class="lightzoom"><img src="sCard/afrai.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 6 -->
+<div id="Six" class="tabcontent"><h3>Второй блок. Одиночное. Игры, фильмы, сериалы</h3>
+<button class="accordion">2.10 Nora - League of Legends (K/DA) - Seraphine</button> <div class="panel">  <a href="card/nora.jpg" class="lightzoom"><img src="sCard/nora.jpg" /></a> </div> 
+<button class="accordion">2.11 Kaypus - Наследники - Иви</button> <div class="panel">  <a href="card/kaypus.jpg" class="lightzoom"><img src="sCard/kaypus.jpg" /></a> </div> 
+<button class="accordion">2.12 Маракуйа - The Witcher 3: Wild Hunt - Triss Merigold</button> <div class="panel">  <a href="card/marakuya.jpg" class="lightzoom"><img src="sCard/marakuya.jpg" /></a> </div> 
+<button class="accordion">2.13 Sawaka - Genshin Impact - Lisa</button> <div class="panel"> <a href="card/sawaka.jpg" class="lightzoom"><img src="sCard/sawaka.jpg" /></a> </div>
+<button class="accordion">2.14 ау - League of legends - Tristana</button> <div class="panel">  <a href="card/ay.jpg" class="lightzoom"><img src="sCard/ay.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 7 -->
+<div id="Seven" class="tabcontent"><h3>Второй блок. Парное</h3>
+<button class="accordion">2.17 КкаоБоб, Phill - Genshin Impact - Albedo, Sucrose</button> <div class="panel">  <a href="card/bob.jpg" class="lightzoom"><img src="sCard/bob.jpg" /></a> </div> 
+<button class="accordion">2.18 Velianoo & Ssanvalle - Genshin Impact - Mona, Scaramouche</button> <div class="panel">  <a href="card/velianoo.jpg" class="lightzoom"><img src="sCard/velianoo.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 8 -->
+<div id="Eight" class="tabcontent"><h3>Второй блок. Групповое</h3>
+<button class="accordion">2.20 RaweCos - Токийские мстители - Манджиро Сано, Кен Регудзи, Ханагаки Такемичи, Киёмаса</button> <div class="panel">  <a href="card/rawe.jpg" class="lightzoom"><img src="sCard/rawe.jpg" /></a> </div> 
+<button class="accordion">2.21 Mono Abel, Junka, LuckyJoye - Resident Evil Village - Lady Alcina Dimitrescu, Cassandra Dimitrescu, Daniela Dimitrescu</button> <div class="panel">  <a href="card/mono.jpg" class="lightzoom"><img src="sCard/mono.jpg" /></a> </div>
+<button class="accordion">2.22 Umbrella corparation - Resident Evil - Оперативники Корпорация Амбрелла и учёный</button> <div class="panel">  <a href="card/umb.jpg" class="lightzoom"><img src="sCard/umb.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 9 -->
+<div id="Nine" class="tabcontent"><h3>Третий блок. Одиночное. Мировая мультипликация</h3>
+<button class="accordion">3.01 Sad Dreamer - Благословение Небожителей - Xie Lian</button> <div class="panel">  <a href="card/sad.jpg" class="lightzoom"><img src="sCard/sad.jpg" /></a> </div> 
+<button class="accordion">3.02 Koritsa - Страна самоцветов - Алмаз</button> <div class="panel">  <a href="card/koritsa.jpg" class="lightzoom"><img src="sCard/koritsa.jpg" /></a> </div> 
+<button class="accordion">3.03 Shoiro - Neon Genesis Evangelion - Misato Katsuragi</button> <div class="panel">  <a href="card/shoiro.jpg" class="lightzoom"><img src="sCard/shoiro.jpg" /></a> </div> 
+<button class="accordion">3.04 Altana - Благословение Небожителей - Xie Lian</button> <div class="panel">  <a href="card/altana.jpg" class="lightzoom"><img src="sCard/altana.jpg" /></a> </div> 
+<button class="accordion">3.05 Floran Cundy - С приветом по планетам - Тут-и-там</button> <div class="panel">  <a href="card/floran.jpg" class="lightzoom"><img src="sCard/floran.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 10 -->
+<div id="Ten" class="tabcontent"><h3>Третий блок. Одиночное. Игры, фильмы, сериалы</h3>
+<button class="accordion">3.09 WinterKing - Mortal Kombat 2021 - Hanzo Hasashi/Scorpion</button> <div class="panel">  <a href="card/winter.jpg" class="lightzoom"><img src="sCard/winter.jpg" /></a> </div> 
+<button class="accordion">3.10 Toro - Клуб романтики - Andvari</button> <div class="panel">  <a href="card/toro2.jpg" class="lightzoom"><img src="sCard/toro2.jpg" /></a> </div> 
+<button class="accordion">3.11 Крендель 228 - Genshin Impact - Венти</button> <div class="panel">  <a href="card/krendel.jpg" class="lightzoom"><img src="sCard/krendel.jpg" /></a> </div> 
+</div>
+<!-- Вкладка 11 -->
+<div id="Eleven" class="tabcontent"><h3>Третий блок. Парное</h3>
+<button class="accordion">3.15 Mickeyjedi, Arget - Shaman King - Yoh Asakura, Anna Kyoyama</button> <div class="panel">  <a href="card/mickey.jpg" class="lightzoom"><img src="sCard/mickey.jpg" /></a> </div>
+<button class="accordion">3.16 Кусочек колбаски - Благословение небожителей - Hua Cheng & Xie Lian</button> <div class="panel">  <a href="card/kolbas.jpg" class="lightzoom"><img src="sCard/kolbas.jpg" /></a> </div>
+</div>
+<!-- Вкладка 12 -->
+<div id="Tvelve" class="tabcontent"><h3>Третий блок. Групповое</h3>
+<button class="accordion">3.18 Gluckuri - Arcane: League of Legends - Jinx, Powder, VI, Caitlyn</button> <div class="panel">  <a href="card/gluckuri.jpg" class="lightzoom"><img src="sCard/gluckuri.jpg" /></a> </div> 
+<button class="accordion">3.19 Dante, Asuke, Kita - Shrek 2 - Фея крёстная, Фиона, Принц Чаминг</button> <div class="panel">  <a href="card/dante.jpg" class="lightzoom"><img src="sCard/dante.jpg" /></a> </div> 
+<button class="accordion">3.20 Аморальная поддержка - Genshin Impact - Albedo, Xingqiu, Scaramouche</button> <div class="panel">  <a href="card/moral.jpg" class="lightzoom"><img src="sCard/moral.jpg" /></a> </div> 
+</div>
+<!-- Таблица -->
+<div id="table" class="tabcontent">
+<table class="table_blur">
+  <tr class="B"><th>Время/номер</th><th>Ник</th></tr>
+    <tr class="B"><td>12:00</td><td>Открытие</td></tr>
+  <tr><th colspan="2">1-ый блок</th></tr>
+    <tr class="B"><td>12:15</td><td>Одиночное дефиле, Мировая Мультипликация</td></tr>
+  <tr><td>1.01</td><td>Laito - Благословение Небожителей - Hua Cheng</td></tr>
+  <tr><td>1.02</td><td>Days - Hazbin Hotel - Charlie</td></tr>
+  <tr><td>1.03</td><td>Toro - Kamisama hajimemashita - Mizuki</td></tr>
+  <tr><td>1.04</td><td>Kello - Моя Геройская Академия - Тодороки Шото</td></tr>
+  <tr><td>1.05</td><td>Кот Бегемот - Благословение Небожителей - Shi Qingxuan</td></tr>
+    <tr class="B"><td>12:25</td><td>Танцы</td></tr>
+  <tr><td>1.06</td><td>ZZ TOWN - TWICE - I can’t stop me</td></tr>
+  <tr><td>1.07</td><td>Umany - BabyMetal - Gimme Chocolate</td></tr>
+    <tr class="B"><td>12:35</td><td>Одиночное дефиле, Игры/Фильмы/Сериалы</td></tr>
+  <tr><td>1.08</td><td>Gemu - The Witcher 3: Wild Hunt - Присцилла</td></tr>
+  <tr><td>1.09</td><td>Крейсер Уфа - Steampunk - Капитан Стефан Ковальский</td></tr>
+  <tr><td>1.10</td><td>kuroko_ko_ko - The Legend of Zelda - Zelda</td></tr>
+  <tr><td>1.11</td><td>Camika - Марвел - Первый Мститель:другая война - Черная вдова Наташа Романофф</td></tr>
+    <tr class="B"><td>12:40</td><td>Танцы</td></tr>
+  <tr><td>1.12</td><td>TheMUSES - TRI.BE - Would You Run</td></tr>
+  <tr><td>1.13</td><td>MADG’ELS - CIX - Jungle</td></tr>
+    <tr class="B"><td>12:50</td><td>Парное дефиле</td></tr>
+  <tr><td>1.14</td><td>Chidori & Yodzo - Tokyo Revengers - Manjiro Sano & Takemichi Hanagaki</td></tr>
+  <tr><td>1.15</td><td>StarFans Tatarstan - STAR WARS - Mandalorian warriors</td></tr>
+  <tr><td>1.16</td><td>Евакосп - Евангелион - Аска Ленгли, Аянами Рей</td></tr>
+    <tr class="B"><td>12:55</td><td>Вокал</td></tr>
+  <tr><td>1.17</td><td>Гафаров Искандер - OST из игр серии Yakuza - Baka Mitai (Akiyama version)</td></tr>
+    <tr class="B"><td>13:00</td><td>Груповое и Экшн-дефиле</td></tr> 
+  <tr><td>1.18</td><td>89 крутка - Genshin Impact - Xinyan, Gorou, Kazuha, Lumine, Paimon, Albedo, Xiao, Venti</td></tr>
+  <tr><td>1.19</td><td>Chinese fuss - Genshin Impact - Сян Лин, Син Цю (Школьное АУ)</td></tr>
+  <tr><td>1.20</td><td>Altana и SNR - Bleach - Kuchiki Byakuya; Senbonzakura</td></tr>
+    <tr class="B"><td>13:10</td><td>Танцы</td></tr>
+  <tr><td>1.21</td><td>ZZ Dance school - ENHYPEN - Fever</td></tr>
+  <tr><td>1.22</td><td>Coffee Glass - 4MIX - Y u comeback</td></tr>
+  <tr><td>1.23</td><td>X1, KIDERO - GOT the beat - Step Back</td></tr>
+    <tr class="B"><td>13:25</td><td>Перерыв</td></tr>
+    <tr><th colspan="2">2-ой блок</th></tr>
+    <tr class="B"><td>14:05</td><td>Одиночное дефиле, Мировая Мультипликация</td></tr>
+  <tr><td>2.01</td><td>Lally - Demon Slayer  - Shinobu Kocho</td></tr>
+  <tr><td>2.02</td><td>ShigeShinske - Магистр дьявольского культа - Jīn Guāngyáo</td></tr>
+  <tr><td>2.03</td><td>kicking iroces - demon Slayer - Kyōjurō Rengoku</td></tr>
+  <tr><td>2.04</td><td>MIKKEL - Promare - Lio Fotia</td></tr>
+  <tr><td>2.05</td><td>Chidori - Demon Slayer - Shinobu Kochō</td></tr>
+  <tr><td>2.06</td><td>Afrai - Бесконечный Дендрограмм - Сю Старлинг Мишка братишка</td></tr>
+    <tr class="B"><td>14:15</td><td>Танцы</td></tr>
+  <tr><td>2.07</td><td>O.M.G - Kai - Mmmh</td></tr>
+  <tr><td>2.08</td><td>SBB - Everglow - First</td></tr>
+  <tr><td>2.09</td><td>DifriendZ - NCTxAESPA - ZOO</td></tr>
+    <tr class="B"><td>14:30</td><td>Одиночное дефиле, Игры/Фильмы/Сериалы</td></tr>
+  <tr><td>2.10</td><td>Nora - League of Legends (K/DA) - Seraphine</td></tr>
+  <tr><td>2.11</td><td>Kaypus - Наследники - Иви</td></tr>
+  <tr><td>2.12</td><td>Маракуйа - The Witcher 3: Wild Hunt - Triss Merigold</td></tr>
+  <tr><td>2.13</td><td>Sawaka - Genshin Impact - Lisa</td></tr>
+  <tr><td>2.14</td><td>ау - League of legends - Tristana</td></tr>
+    <tr class="B"><td>14:40</td><td>Танцы</td></tr>
+  <tr><td>2.15</td><td>Why Dawn - ITZY - Loco</td></tr>
+  <tr><td>2.16</td><td>ENLIVEN - ENHYPEN - Drunk Dazed</td></tr>
+    <tr class="B"><td>14:50</td><td>Парное дефиле</td></tr>
+  <tr><td>2.17</td><td>КкаоБоб, Phill - Genshin Impact - Albedo, Sucrose</td></tr>
+  <tr><td>2.18</td><td>Velianoo & Ssanvalle - Genshin Impact - Mona, Scaramouche</td></tr>
+    <tr class="B"><td>14:55</td><td>Вокал</td></tr>
+  <tr><td>2.19</td><td>S - Lee Hi - Only</td></tr>
+    <tr class="B"><td>15:00</td><td>Групповое и Экшн-дефиле</td></tr>
+  <tr><td>2.20</td><td>RaweCos - Токийские мстители - Манджиро Сано, Кен Регудзи, Ханагаки Такемичи, Киёмаса</td></tr>
+  <tr><td>2.21</td><td>Mono Abel, Junka, LuckyJoye - Resident Evil Village - Lady Alcina Dimitrescu, Cassandra Dimitrescu, Daniela Dimitrescu</td></tr>
+  <tr><td>2.22</td><td>Umbrella corparation - Resident Evil - Оперативники Корпорация Амбрелла и учёный</td></tr>
+    <tr class="B"><td>15:10</td><td>Танцы</td></tr>
+  <tr><td>2.23</td><td>Coffee glass feat. Why Dawn, O.m.g - ENHYPEN - Tamed-Dashed</td></tr>
+  <tr><td>2.24</td><td>White Night feat TheMUSES - TXT - PUMA</td></tr>
+  <tr><td>2.25</td><td>ZZ TOWN - ENHYPEN - Drunk Dazed</td></tr>
+    <tr class="B"><td>15:25</td><td>Перерыв</td></tr>
+   <tr><th colspan="2">3-ий блок</th></tr>
+    <tr class="B"><td>16:05</td><td>Одиночное дефиле, Мировая Мультипликация</td></tr>
+  <tr><td>3.01</td><td>Sad Dreamer - Благословение Небожителей - Xie Lian</td></tr>
+  <tr><td>3.02</td><td>Koritsa - Страна самоцветов - Алмаз</td></tr>
+  <tr><td>3.03</td><td>Shoiro - Neon Genesis Evangelion - Misato Katsuragi</td></tr>
+  <tr><td>3.04</td><td>Altana - Благословение Небожителей - Xie Lian</td></tr>
+  <tr><td>3.05</td><td>Floran Cundy - С приветом по планетам - Тут-и-там</td></tr>
+     <tr class="B"><td>16:15</td><td>Танцы</td></tr>
+  <tr><td>3.06</td><td>High Track - ATEEZ - Answer</td></tr>
+  <tr><td>3.07</td><td>KIDERO - LOONA - PTT (Paint The Town)</td></tr>
+  <tr><td>3.08</td><td>MaD project - Stray Kids - Thunderous</td></tr>
+    <tr class="B"><td>16:30</td><td>Одиночное дефиле, Игры/Фильмы/Сериалы</td></tr>
+  <tr><td>3.09</td><td>WinterKing - Mortal Kombat 2021 - Hanzo Hasashi/Scorpion</td></tr>
+  <tr><td>3.10</td><td>Toro - Клуб романтики - Andvari</td></tr>
+  <tr><td>3.11</td><td>Крендель 228 - Genshin Impact - Венти</td></tr>
+    <tr class="B"><td>16:35</td><td>Танцы</td></tr>
+  <tr><td>3.12</td><td>1BC - BTS - FIRE</td></tr>
+  <tr><td>3.13</td><td>White Night - aespa - Next Level</td></tr>
+  <tr><td>3.14</td><td>X1 - CLC - ME</td></tr>
+    <tr class="B"><td>16:50</td><td>Парное дефиле</td></tr>
+  <tr><td>3.15</td><td>Mickeyjedi, Arget - Shaman King - Yoh Asakura, Anna Kyoyama</td></tr>
+  <tr><td>3.16</td><td>Кусочек колбаски - Благословение небожителей - Hua Cheng & Xie Lian</td></tr>
+    <tr class="B"><td>16:55</td><td>Вокал</td></tr>
+  <tr><td>3.17</td><td>U-Key - Girls Dead Monster - My song (Angel Beats! OST)</td></tr>
+    <tr class="B"><td>17:00</td><td>Груповое дефиле</td></tr>
+  <tr><td>3.18</td><td>Gluckuri - Arcane: League of Legends - Jinx, Powder, VI, Caitlyn</td></tr>
+  <tr><td>3.19</td><td>Dante, Asuke, Kita - Shrek 2 - Фея крёстная, Фиона, Принц Чаминг</td></tr>
+  <tr><td>3.20</td><td>Аморальная поддержка - Genshin Impact - Albedo, Xingqiu, Scaramouche</td></tr>
+    <tr class="B"><td>17:15</td><td>Танцы</td></tr>
+  <tr><td>3.21</td><td>Cloud Nine - ITZY - DALLA DALLA</td></tr>
+  <tr><td>3.22</td><td>HEAVEN - ENHYPEN - GIVEN-TAKEN</td></tr>
+  <tr><td>3.23</td><td>ZZ TOWN & Ufa cover dance fandom - Original production - Squid Game</td></tr>
+     <tr class="B"><td>17:30</td><td>Лотерея</td></tr>
+     <tr class="B"><td>17:45</td><td>Внеконкурс</td></tr>
+  <tr><td>4.01</td><td>Afelis - Michelle Williams - Tightrpe</td></tr>
+  <tr><td>4.02</td><td>O.M.G. - Girls Generation - All Night</td></tr>
+  <tr><td>4.03</td><td>Макоха - Griffin Burn's cover (Russian version) - Tar-Tar-Taglia</td></tr>
+  <tr><td>4.04</td><td>HEAVEN - (G)-IDLE - HWAA</td></tr>
+  <tr><td>4.05</td><td>Alex Vas - OST Metal Family, акустическая версия - Сосна</td></tr>
+  <tr><td>4.06</td><td>Cloud Nine - Dreamcatcher - BEcause</td></tr>
+  <tr><td>4.07</td><td>Afelis - TRUE (OP Violet Evergarden) - Sincerely</td></tr>
+  <tr><td>4.08</td><td>Kidero Boys Project - Got7 - Crash&Burn</td></tr>
+  <tr><td>4.09</td><td>Макоха и Катастрофа - OST Алые сердца - Will be back</td></tr>
+     <tr class="B"><th>18:20</th><th>Награждение</th></tr>
+</table>    
+</div>
+    
+    
+    
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+<script src="JavaScript.js"></script>
+
+<link rel="stylesheet" href="lightzoom/style.css" type="text/css">
+<script type="text/javascript" src="lightzoom/lightzoom.js"></script>
+<script type="text/javascript">jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});</script>
+</body>
+</html>
