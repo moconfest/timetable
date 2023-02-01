@@ -7,104 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
-    <!-- Верхняя панель -->
-    <div class="tab"> <button class="tablinks" onclick="openCity(event, 'One')">Мульт</button> 
-    <button class="tablinks" onclick="openCity(event, 'Two')">Одиночное</button>
-    <button class="tablinks" onclick="openCity(event, 'Three')">Парное</button>
-    <button class="tablinks" onclick="openCity(event, 'Four')">Групповое</button>
-    <button class="tablinks" onclick="openCity(event, 'Five')">2 БЛОК. Мульт</button>
-    <button class="tablinks" onclick="openCity(event, 'Six')">Одиночное</button>
-    <button class="tablinks" onclick="openCity(event, 'Seven')">Парное</button>
-    <button class="tablinks" onclick="openCity(event, 'Eight')">Групповое</button>
-    <button class="tablinks" onclick="openCity(event, 'Nine')">3 БЛОК. Мульт</button>
-    <button class="tablinks" onclick="openCity(event, 'Ten')">Одиночное</button>
-    <button class="tablinks" onclick="openCity(event, 'Eleven')">Парное</button>
-    <button class="tablinks" onclick="openCity(event, 'Tvelve')">Групповое</button>
-    <button class="tablinks" onclick="openCity(event, 'table')">Общая таблица</button>
-    </div>
-<!-- <button class="accordion">Хикару</button> <div class="panel"> <div class="card"> <a href="card/Hikaru.jpg" class="lightzoom"><img src="sCard/Hikaru.jpg" /></a> </div> </div> --> 
-<!-- Вкладка 1 -->
-<div id="One" class="tabcontent"><h3>Первый блок. Одиночное. Мировая мультипликация</h3>
-<button class="accordion">1.01 Laito - Благословение Небожителей - Hua Cheng</button> <div class="panel">  <a href="card/laito.jpg" class="lightzoom"><img src="sCard/laito.jpg" /></a> </div> 
-<button class="accordion">1.02 Days - Hazbin Hotel - Charlie</button> <div class="panel">  <a href="card/days.jpg" class="lightzoom"><img src="sCard/days.jpg" /></a> </div> 
-<button class="accordion">1.03 Toro - Kamisama hajimemashita - Mizuki</button> <div class="panel">  <a href="card/toro.jpg" class="lightzoom"><img src="sCard/toro.jpg" /></a> </div> 
-<button class="accordion">1.04 Kello - Моя Геройская Академия - Тодороки Шото</button> <div class="panel">  <a href="card/kello.jpg" class="lightzoom"><img src="sCard/kello.jpg" /></a> </div> 
-<button class="accordion">1.05 Кот Бегемот - Благословение Небожителей - Shi Qingxuan</button> <div class="panel">  <a href="card/kot.jpg" class="lightzoom"><img src="sCard/kot.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 2 -->
-<div id="Two" class="tabcontent"><h3>Первый блок. Одиночное. Игры, фильмы, сериалы</h3>
-<button class="accordion">1.08 Gemu - The Witcher 3: Wild Hunt - Присцилла</button> <div class="panel"> <a href="card/gemu.jpg" class="lightzoom"><img src="sCard/gemu.jpg" /></a> </div>
-<button class="accordion">1.09 Крейсер Уфа - Steampunk - Капитан Стефан Ковальский</button> <div class="panel"> <a href="card/ufa.jpg" class="lightzoom"><img src="sCard/ufa.jpg" /></a> </div>
-<button class="accordion">1.10 kuroko_ko_ko - The Legend of Zelda - Zelda</button> <div class="panel">  <a href="card/kuroko.jpg" class="lightzoom"><img src="sCard/kuroko.jpg" /></a> </div> 
-<button class="accordion">1.11 Camika - Марвел - Первый Мститель:другая война - Черная вдова Наташа Романофф</button> <div class="panel"> <a href="card/camika.jpg" class="lightzoom"><img src="sCard/camika.jpg" /></a> </div>
-</div>
-<!-- Вкладка 3 -->
-<div id="Three" class="tabcontent"><h3>Первый блок. Парное</h3>
-<button class="accordion">1.14 Chidori & Yodzo - Tokyo Revengers - Manjiro Sano & Takemichi Hanagaki</button> <div class="panel">  <a href="card/cy.jpg" class="lightzoom"><img src="sCard/cy.jpg" /></a> </div> 
-<button class="accordion">1.15 StarFans Tatarstan - STAR WARS - Mandalorian warriors</button> <div class="panel">  <a href="card/star.jpg" class="lightzoom"><img src="sCard/star.jpg" /></a> </div>
-<button class="accordion">1.16 Евакосп - Евангелион - Аска Ленгли, Аянами Рей</button> <div class="panel">  <a href="card/eva.jpg" class="lightzoom"><img src="sCard/eva.jpg" /></a> </div>
-</div>
-<!-- Вкладка 4 -->
-<div id="Four" class="tabcontent"><h3>Первый блок. Групповое</h3>
-<button class="accordion">1.18 89 крутка - Genshin Impact - Xinyan, Gorou, Kazuha, Lumine, Paimon, Albedo, Xiao, Venti</button> <div class="panel">  <a href="card/89.jpg" class="lightzoom"><img src="sCard/89.jpg" /></a> </div> 
-<button class="accordion">1.19 Chinese fuss - Genshin Impact - Сян Лин, Син Цю (Школьное АУ)</button> <div class="panel">  <a href="card/chinese.jpg" class="lightzoom"><img src="sCard/chinese.jpg" /></a> </div> 
-<button class="accordion">1.20 Altana и SNR - Bleach - Kuchiki Byakuya; Senbonzakura</button> <div class="panel">  <a href="card/as.jpg" class="lightzoom"><img src="sCard/as.jpg" /></a> </div>
-</div>
-<!-- Вкладка 5 -->
-<div id="Five" class="tabcontent"><h3>Второй блок. Одиночное. Мировая мультипликация</h3>
-<button class="accordion">2.01 Lally - Demon Slayer  - Shinobu Kocho</button> <div class="panel">  <a href="card/lally.jpg" class="lightzoom"><img src="sCard/lally.jpg" /></a> </div> 
-<button class="accordion">2.02 ShigeShinske - Магистр дьявольского культа - Jīn Guāngyáo</button> <div class="panel">  <a href="card/shige.jpg" class="lightzoom"><img src="sCard/shige.jpg" /></a> </div> 
-<button class="accordion">2.03 kicking iroces - demon Slayer - Kyōjurō Rengoku</button> <div class="panel">  <a href="card/kicking.jpg" class="lightzoom"><img src="sCard/kicking.jpg" /></a> </div> 
-<button class="accordion">2.04 MIKKEL - Promare - Lio Fotia</button> <div class="panel">  <a href="card/mikkel.jpg" class="lightzoom"><img src="sCard/mikkel.jpg" /></a> </div> 
-<button class="accordion">2.05 Chidori - Demon Slayer - Shinobu Kochō</button> <div class="panel">  <a href="card/chidori.jpg" class="lightzoom"><img src="sCard/chidori.jpg" /></a> </div>
-<button class="accordion">2.06 Afrai - Бесконечный Дендрограмм - Сю Старлинг Мишка братишка</button> <div class="panel">  <a href="card/afrai.jpg" class="lightzoom"><img src="sCard/afrai.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 6 -->
-<div id="Six" class="tabcontent"><h3>Второй блок. Одиночное. Игры, фильмы, сериалы</h3>
-<button class="accordion">2.10 Nora - League of Legends (K/DA) - Seraphine</button> <div class="panel">  <a href="card/nora.jpg" class="lightzoom"><img src="sCard/nora.jpg" /></a> </div> 
-<button class="accordion">2.11 Kaypus - Наследники - Иви</button> <div class="panel">  <a href="card/kaypus.jpg" class="lightzoom"><img src="sCard/kaypus.jpg" /></a> </div> 
-<button class="accordion">2.12 Маракуйа - The Witcher 3: Wild Hunt - Triss Merigold</button> <div class="panel">  <a href="card/marakuya.jpg" class="lightzoom"><img src="sCard/marakuya.jpg" /></a> </div> 
-<button class="accordion">2.13 Sawaka - Genshin Impact - Lisa</button> <div class="panel"> <a href="card/sawaka.jpg" class="lightzoom"><img src="sCard/sawaka.jpg" /></a> </div>
-<button class="accordion">2.14 ау - League of legends - Tristana</button> <div class="panel">  <a href="card/ay.jpg" class="lightzoom"><img src="sCard/ay.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 7 -->
-<div id="Seven" class="tabcontent"><h3>Второй блок. Парное</h3>
-<button class="accordion">2.17 КкаоБоб, Phill - Genshin Impact - Albedo, Sucrose</button> <div class="panel">  <a href="card/bob.jpg" class="lightzoom"><img src="sCard/bob.jpg" /></a> </div> 
-<button class="accordion">2.18 Velianoo & Ssanvalle - Genshin Impact - Mona, Scaramouche</button> <div class="panel">  <a href="card/velianoo.jpg" class="lightzoom"><img src="sCard/velianoo.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 8 -->
-<div id="Eight" class="tabcontent"><h3>Второй блок. Групповое</h3>
-<button class="accordion">2.20 RaweCos - Токийские мстители - Манджиро Сано, Кен Регудзи, Ханагаки Такемичи, Киёмаса</button> <div class="panel">  <a href="card/rawe.jpg" class="lightzoom"><img src="sCard/rawe.jpg" /></a> </div> 
-<button class="accordion">2.21 Mono Abel, Junka, LuckyJoye - Resident Evil Village - Lady Alcina Dimitrescu, Cassandra Dimitrescu, Daniela Dimitrescu</button> <div class="panel">  <a href="card/mono.jpg" class="lightzoom"><img src="sCard/mono.jpg" /></a> </div>
-<button class="accordion">2.22 Umbrella corparation - Resident Evil - Оперативники Корпорация Амбрелла и учёный</button> <div class="panel">  <a href="card/umb.jpg" class="lightzoom"><img src="sCard/umb.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 9 -->
-<div id="Nine" class="tabcontent"><h3>Третий блок. Одиночное. Мировая мультипликация</h3>
-<button class="accordion">3.01 Sad Dreamer - Благословение Небожителей - Xie Lian</button> <div class="panel">  <a href="card/sad.jpg" class="lightzoom"><img src="sCard/sad.jpg" /></a> </div> 
-<button class="accordion">3.02 Koritsa - Страна самоцветов - Алмаз</button> <div class="panel">  <a href="card/koritsa.jpg" class="lightzoom"><img src="sCard/koritsa.jpg" /></a> </div> 
-<button class="accordion">3.03 Shoiro - Neon Genesis Evangelion - Misato Katsuragi</button> <div class="panel">  <a href="card/shoiro.jpg" class="lightzoom"><img src="sCard/shoiro.jpg" /></a> </div> 
-<button class="accordion">3.04 Altana - Благословение Небожителей - Xie Lian</button> <div class="panel">  <a href="card/altana.jpg" class="lightzoom"><img src="sCard/altana.jpg" /></a> </div> 
-<button class="accordion">3.05 Floran Cundy - С приветом по планетам - Тут-и-там</button> <div class="panel">  <a href="card/floran.jpg" class="lightzoom"><img src="sCard/floran.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 10 -->
-<div id="Ten" class="tabcontent"><h3>Третий блок. Одиночное. Игры, фильмы, сериалы</h3>
-<button class="accordion">3.09 WinterKing - Mortal Kombat 2021 - Hanzo Hasashi/Scorpion</button> <div class="panel">  <a href="card/winter.jpg" class="lightzoom"><img src="sCard/winter.jpg" /></a> </div> 
-<button class="accordion">3.10 Toro - Клуб романтики - Andvari</button> <div class="panel">  <a href="card/toro2.jpg" class="lightzoom"><img src="sCard/toro2.jpg" /></a> </div> 
-<button class="accordion">3.11 Крендель 228 - Genshin Impact - Венти</button> <div class="panel">  <a href="card/krendel.jpg" class="lightzoom"><img src="sCard/krendel.jpg" /></a> </div> 
-</div>
-<!-- Вкладка 11 -->
-<div id="Eleven" class="tabcontent"><h3>Третий блок. Парное</h3>
-<button class="accordion">3.15 Mickeyjedi, Arget - Shaman King - Yoh Asakura, Anna Kyoyama</button> <div class="panel">  <a href="card/mickey.jpg" class="lightzoom"><img src="sCard/mickey.jpg" /></a> </div>
-<button class="accordion">3.16 Кусочек колбаски - Благословение небожителей - Hua Cheng & Xie Lian</button> <div class="panel">  <a href="card/kolbas.jpg" class="lightzoom"><img src="sCard/kolbas.jpg" /></a> </div>
-</div>
-<!-- Вкладка 12 -->
-<div id="Tvelve" class="tabcontent"><h3>Третий блок. Групповое</h3>
-<button class="accordion">3.18 Gluckuri - Arcane: League of Legends - Jinx, Powder, VI, Caitlyn</button> <div class="panel">  <a href="card/gluckuri.jpg" class="lightzoom"><img src="sCard/gluckuri.jpg" /></a> </div> 
-<button class="accordion">3.19 Dante, Asuke, Kita - Shrek 2 - Фея крёстная, Фиона, Принц Чаминг</button> <div class="panel">  <a href="card/dante.jpg" class="lightzoom"><img src="sCard/dante.jpg" /></a> </div> 
-<button class="accordion">3.20 Аморальная поддержка - Genshin Impact - Albedo, Xingqiu, Scaramouche</button> <div class="panel">  <a href="card/moral.jpg" class="lightzoom"><img src="sCard/moral.jpg" /></a> </div> 
-</div>
-<!-- Таблица -->
-<div id="table" class="tabcontent">
+<div>
 <table class="table_blur">
   <tr class="B"><th>Время/номер</th><th>Ник</th></tr>
     <tr class="B"><td>12:00</td><td>Открытие</td></tr>
@@ -222,26 +125,6 @@
      <tr class="B"><th>18:20</th><th>Награждение</th></tr>
 </table>    
 </div>
-    
-    
-    
-    <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
-<script src="JavaScript.js"></script>
 
 <link rel="stylesheet" href="lightzoom/style.css" type="text/css">
 <script type="text/javascript" src="lightzoom/lightzoom.js"></script>
