@@ -54,7 +54,8 @@
 
 
 table {
-  margin: auto; /* Выравниваем таблицу по центру окна  */
+  margin-left: auto;
+  margin-right: auto; /* Выравниваем таблицу по центру окна  */
 }
 .head {
   text-align: center; /* Выравниваем шапку по центру окна  */
